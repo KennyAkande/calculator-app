@@ -30,8 +30,9 @@ body{
     height: 45vh;
     width: 100%;
     background-color: rgb(48, 45, 45);
-}
+ }
 .fa-solid{
     color: #1b5de0f0;
     font-size: 4vmin;
+    cursor: pointer;
 }
