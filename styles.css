@@ -11,8 +11,18 @@ body{
 }
 .mainbox{
    margin-top: 8vmin;
-    border: 2px solid black;
+    border:   1px solid ;
     height: 90vh;
     width: 30vw;
-    background-color: black;  
+    background-color: black; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+}
+.innerbox{
+    border: 2px solid;
+    height: 45vh;
+    width: 100%;
+    background-color: rgb(85, 83, 83);
 }
