@@ -13,7 +13,7 @@ body{
    margin-top: 8vmin;
     border:   1px solid ;
     height: 90vh;
-    width: 30vw;
+    width: 23.5vw;
     background-color: black; 
     display: flex;
     justify-content: center;
@@ -21,8 +21,17 @@ body{
    
 }
 .innerbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1vmin; 
+    padding: 0 1vmin; 
     border: 2px solid;
     height: 45vh;
     width: 100%;
-    background-color: rgb(85, 83, 83);
+    background-color: rgb(48, 45, 45);
+}
+.fa-solid{
+    color: #1b5de0f0;
+    font-size: 4vmin;
 }
