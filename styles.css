@@ -65,10 +65,17 @@ body {
     height: 8vmin;
 }
 .numbers {
+    background: none;
+    border: none;
+    outline: none;
     color: white;
     font-size: 4vmin;
     cursor: pointer;
-}
+    /* flex: 1; */
+    /* text-align: center; */
+    
+  }
+  
 
 
 
