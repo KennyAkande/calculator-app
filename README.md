@@ -18,7 +18,7 @@ This is a simple calculator web app built with HTML, CSS, and JavaScript. The ap
 To run this project locally, follow the steps below:
 
 1. **Clone the repository**:
-git clone https://github.com/your-username/calculator-app.git
+git clone https://github.com/KennyAkande/calculator-app
 
 2. **Navigate to the project directory**:
 
