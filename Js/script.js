@@ -12,7 +12,7 @@ $(document).ready(function () {
     } else if (val === "C") {
       expression = "";
     } else if (val === "delete") {
-      expression = expression.slice(0, -1); // Remove last character
+      expression = expression.slice(0, -1); 
     } else {
       expression += val;
     }
