@@ -1,8 +1,7 @@
 $(document).ready(function () {
   let expression = "";
-
-  $(".numbers, .fa-solid").click(function () {
-    let val = $(this).val() || $(this).text();
+  $(".numbers, .fa-solid").on("click", function () {
+    let val = $(this).val() || $(this).text() || $(this).data("value");
 
     if (val === "=") {
       try {
@@ -12,10 +11,11 @@ $(document).ready(function () {
       }
     } else if (val === "C") {
       expression = "";
+    } else if (val === "delete") {
+      expression = expression.slice(0, -1); // Remove last character
     } else {
       expression += val;
     }
-
     $("#display").text(expression);
   });
 });
